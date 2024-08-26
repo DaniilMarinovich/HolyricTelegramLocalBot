@@ -19,7 +19,7 @@ namespace TelegramKeySimulator
 
         static async Task Main(string[] args)
         {
-            botClient = new TelegramBotClient("7336730044:AAEKucHuqd_ZByPRknphtePhYfxMf2tdY6Q");
+            botClient = new TelegramBotClient("your token");
 
             using var cts = new CancellationTokenSource();
             var receiverOptions = new ReceiverOptions
